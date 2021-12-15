@@ -1,6 +1,5 @@
 <scene id_="1874706176" open_="true" version="0.9.0" shadowVolume="200 50 200">
 	<environment id_="1757520640" template="night" skybox="night" skyboxtint="0.0 0.0 0.0" skyboxbrightness="0.01" constant="0.001 0.001 0.001" ambient="0" ambientexponent="1" fogColor="0.0 0.0 0.0" fogParams="20 20 1.9.2" sunColorTint="0.0 0.0 0.0" sunDir="0" sunSpread="0" sunLength="0" sunFogScale="0" sunGlare="0" exposure="0.1" brightness="1" wetness="0" puddlesize="0" nightlight="false" ambience="nil" fogscale="1"/>
-	<script id_="515865344" file="main.lua"/>
 	<spawnpoint id_="1115425280" pos="25.4 6.7 90.8" rot="0 180 0"/>
 	<group id_="556041344" open_="true" pos="-1.61056 5.3 -64.24657" rot="0.0 10.0 0.0">
 		<vox id_="882037312" pos="-1.5 0.6 -2.7" rot="0.0 -20.0 0.0" blendtexture="1" density="0" file="MOD/canal.vox" scale="1"/>
@@ -352,7 +351,7 @@
 		<vox id_="1913702400" pos="-115.50009 0.1 17.79997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
 		<vox id_="1687392896" pos="-121.90012 0.0 22.49997" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
 	</group>
-	<group id_="1528917120" open_="true" pos="19.4 5.5 -6.6">
+	<group id_="1528917120" pos="19.4 5.5 -6.6">
 		<vox id_="1335180928" pos="-1.4 0.5 -5.5" file="MOD/propane_huge.vox"/>
 		<vox id_="1655540352" pos="-10.6 0.5 -1.2" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
 		<vox id_="2038883840" pos="-10.6 0.5 -6.9" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
@@ -367,70 +366,74 @@
 	<vox id_="278282848" pos="-87.2 5.5 22.6" rot="0.0 20.0 0.0" file="MOD/taskmaster-4wd.vox"/>
 	<vox id_="1091372032" pos="-83.10001 5.5 -48.4" rot="0.0 -70.0 0.0" file="MOD/singleTanker.vox"/>
 	<vox id_="827311424" name="cringeTrailer" pos="-90.9 7.5 14.5" rot="0.0 -40.0 0.0" blendtexture="1" density="1" strength="1" file="MOD/cringeTrailer.vox"/>
-	<vox id_="952165120" pos="-16.7 4.5 77.6" rot="0.0 70.0 0.0" file="MOD/slenderman.vox"/>
 	<vox id_="739094592" pos="-22.5 5.3 -13.8" rot="0.0 0.0 0.0" file="MOD/bathrooms.vox"/>
-	<script id_="1504798464" file="MOD/main.lua">
-		<light id_="329731744" tags="mylight" pos="-27.9 5.9 -12.9" sound="MOD/snd/pageFiveSix.ogg"/>
-		<group id_="1314601344" open_="true" name="slenderPage" tags="interact" pos="-9.82 6.55 -12.25" rot="0.0 -90.0 0.0" prop0="interact">
+	<script id_="1504798464" open_="true" file="MOD/script.lua">
+		<group id_="1314601344" name="slenderPage" tags="interact" pos="-9.82 6.55 -12.25" rot="0.0 -90.0 0.0" prop0="interact">
 			<body id_="1688703616" open_="true" name="slenderPage" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="1499293056" tags="pageOne interact" pos="0.0 6.3 0.0" file="MOD/pageOne.vox" scale="0.05"/>
 				<vox id_="1629062272" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="172042496" open_="true" name="slenderPage" tags="interact" pos="39.5 6.1 -54.9" rot="0.0 -60.0 0.0" prop0="interact">
+		<group id_="172042496" name="slenderPage" tags="interact" pos="39.5 6.1 -54.9" rot="0.0 -60.0 0.0" prop0="interact">
 			<body id_="1072758720" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="662871552" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageThree.vox" scale="0.05"/>
 				<vox id_="799129216" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="203108464" open_="true" name="slenderPage" tags="interact" pos="85.2 6.7 -53.9" rot="0.0 100.0 0.0" prop0="interact">
+		<group id_="203108464" name="slenderPage" tags="interact" pos="85.2 6.7 -53.9" rot="0.0 100.0 0.0" prop0="interact">
 			<body id_="1220354816" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="982116928" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageTwo.vox" scale="0.05"/>
 				<vox id_="1690931968" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="1768531328" open_="true" name="slenderPage" tags="interact" pos="82.09999 6.8 62.3" rot="11.7 101.7 -7.9" prop0="interact">
+		<group id_="1768531328" name="slenderPage" tags="interact" pos="82.09999 6.8 62.3" rot="11.7 101.7 -7.9" prop0="interact">
 			<body id_="951247552" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="1737072128" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageThree.vox" scale="0.05"/>
 				<vox id_="1775937408" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="1028388160" open_="true" name="slenderPage" tags="interact" pos="55.19999 6.8 67.1" rot="1.8 100.2 -9.8" prop0="interact">
-			<body id_="575637824" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+		<group id_="1028388160" name="slenderPage" tags="interact" pos="55.19999 6.8 67.1" rot="1.8 100.2 -9.8" prop0="interact">
+			<body id_="575637824" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="275333536" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageFour.vox" scale="0.05"/>
 				<vox id_="1029698944" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="1840559872" open_="true" name="slenderPage" tags="interact" pos="-65.4 6.9 65.5" rot="1.8 90.2 -9.8" prop0="interact">
-			<body id_="1345863936" open_="true" name="SlenderPage" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+		<group id_="1840559872" name="slenderPage" tags="interact" pos="-65.4 6.9 65.5" rot="1.8 90.2 -9.8" prop0="interact">
+			<body id_="1345863936" name="SlenderPage" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="835766080" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageFive.vox" scale="0.05"/>
 				<vox id_="508131616" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="176499216" open_="true" name="slenderPage" tags="interact" pos="-92.8 6.9 12.2" rot="1.8 -119.8 -9.8" prop0="interact">
-			<body id_="1679331456" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+		<group id_="176499216" name="slenderPage" tags="interact" pos="-92.8 6.9 12.2" rot="1.8 -119.8 -9.8" prop0="interact">
+			<body id_="1679331456" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="1874116352" tags="pageOne interact" pos="0.0 6.3 0.1" rot="0.0 0.0 0.0" file="MOD/pageSix.vox" scale="0.05"/>
 				<vox id_="1318533760" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="849005184" open_="true" name="slenderPage" tags="interact" pos="-85.7 6.4 -47.9" rot="12.8 -67.7 -28.0" prop0="interact">
+		<group id_="849005184" name="slenderPage" tags="interact" pos="-83.6 7.0 -48.1" rot="-2.4 -73.6 18.7" prop0="interact">
 			<body id_="366892928" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="1690735360" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageSeven.vox" scale="0.05"/>
 				<vox id_="917101248" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="669228928" open_="true" name="slenderPage" tags="interact" pos="0.5 7.3 -74.7" rot="-1.6 -100.1 -0.4" prop0="interact">
+		<group id_="669228928" name="slenderPage" tags="interact" pos="0.5 7.3 -74.7" rot="-1.6 -100.1 -0.4" prop0="interact">
 			<body id_="71241984" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
 				<vox id_="124722624" tags="pageOne interact" pos="0.0 6.3 0.2" rot="0.0 0.0 0.0" texture="1" file="MOD/pageEight.vox" scale="0.06"/>
 				<vox id_="2076962560" pos="0.15 4.5 2.0" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="803454848" open_="true" name="slenderPage" tags="interact" pos="21.5 7.0 -12.6" rot="-1.7 -90.1 -30.4" prop0="interact">
-			<body id_="321932480" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.0 0.1" dynamic="true">
+		<group id_="803454848" name="slenderPage" tags="interact" pos="21.5 7.0 -12.6" rot="-1.7 -90.1 -30.4" prop0="interact">
+			<body id_="321932480" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.0 0.1" dynamic="true">
 				<vox id_="239810864" tags="SlenderPage interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="2" strength="2" file="MOD/pageSeven.vox" scale="0.05"/>
 				<vox id_="1386564224" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
+		<body id_="1311455360" open_="true" name="Slenderman" tags="Slenderman" pos="-10.4 5.0 -9.1" dynamic="true">
+			<vox id_="239024384" tags="Slenderman" pos="30.6 -0.2 92.60001" rot="0.0 70.0 0.0" file="MOD/slenderman.vox" scale="0.5"/>
+		</body>
+		<body id_="1861991424" open_="true" name="easterEggThree" tags='easterEggThree interact="I should have my eye on him"' pos="-61.10001 7.1 -42.3" rot="0.0 -180.0 0.0" dynamic="true" desc="I should have my eye on him">
+			<vox id_="1372538624" pos="-0.1 0.1 -0.3" rot="0.0 0.0 -10.0" file="MOD/easterEgg3.vox" scale="0.05"/>
+		</body>
 	</script>
 	<group id_="337727616" pos="-87.5 5.3 99.9">
 		<vox id_="38537520" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
@@ -442,7 +445,7 @@
 		<vox id_="1932184704" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="1618313728" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
-	<group id_="1623884544" open_="true" pos="-87.4 5.3 -100.09999">
+	<group id_="1623884544" pos="-87.4 5.3 -100.09999">
 		<vox id_="1828828160" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="732737216" pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="1763812480" pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
@@ -452,7 +455,7 @@
 		<vox id_="45746920" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="1414484224" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
-	<group id_="2136538496" open_="true" pos="-100.2 5.3 87.40002" rot="0.0 90.0 0.0">
+	<group id_="2136538496" pos="-100.2 5.3 87.40002" rot="0.0 90.0 0.0">
 		<vox id_="503871520" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="412836448" pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="803323776" pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
@@ -462,7 +465,7 @@
 		<vox id_="642816320" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="1677234176" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
-	<group id_="1765909760" open_="true" pos="100.0 5.3 87.30001" rot="0.0 90.0 0.0">
+	<group id_="1765909760" pos="100.0 5.3 87.30001" rot="0.0 90.0 0.0">
 		<vox id_="674996480" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="1468816896" pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="2055596544" pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
@@ -472,6 +475,8 @@
 		<vox id_="663199232" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
 		<vox id_="1604943488" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
+	<vox id_="1852029312" name="easterEggOne" pos="85.10001 7.2 58.0" rot="-15.4 109.6 -16.1" file="MOD/easterEggOne.vox" scale="0.10"/>
+	<vox id_="510753216" pos="-104.3 6.3 -102.00002" rot="0.0 50.0 0.0" file="MOD/easterEggTwo.vox" scale="0.2"/>
 	<layers/>
 </scene>
 
