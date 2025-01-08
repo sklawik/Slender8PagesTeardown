@@ -1,4 +1,4 @@
-name = Mod name here
+name = MAP The Slender 8 Pages
 author = Hype
 description =
 This is project abonded to me few years ago.
