@@ -1,15 +1,6 @@
 name = MAP The Slender 8 Pages
 author = Hype
-description =
-This is project abonded to me few years ago.
-Features:
-- remake of the Slender 8 Pages map to Teardown
-- no jumping
-- 8 pages to collect (random places)
-- random spawn
-- voxel model remake for the pages
-- ambient music
-- slenderman
+description =\nThis is project abonded to me few years ago.\nFeatures:\n\n- remake of the Slender 8 Pages map to Teardown\n- no jumping\n- 8 pages to collect (random places)\n- random spawn\n- voxel model remake for the pages\n- ambient music\n- slenderman
 
 Missing:
 - gameplay
