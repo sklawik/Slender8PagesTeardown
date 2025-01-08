@@ -1,21 +1,22 @@
 name = MAP The Slender 8 Pages
 author = Hype
-description =This is project abonded to me few years ago. 
-
-Features:- remake of the Slender 8 Pages map to Teardown 
-- no jumping - 8 pages to collect (random places) 
+description =Features:
+- remake of the Slender 8 Pages map to Teardown 
+- no jumping
+ - 8 pages to collect (random places) 
 - random spawn 
 - voxel model remake for the pages 
 - ambient music 
-- slenderman
+- slenderman model 
 
 Missing:
 - gameplay
 - flashlight could be brigther
 
-Everyone are free to use assets from this map or even upgrade the map to playable state.
-Please start this project on Github! I put a lot of work to remake the map as close as possible to the original game.
-Feel free to fork this repo, and if you decide to finish the project please push changes to original repo - you are still allowed to publish the map with your gameplay as your own, but please consider sharing change to original repo here:
+Everyone is free to use assets from this map or even upgrade the map to playable state.
+Please star this project on Github! 
+I did put a lot of work to remake the map as close as possible to the original game.
+Feel free to fork this repo, and if you decide to finish the project please push changes to original repo - you are still allowed to publish the map with your gameplay as your own, but please consider sharing any changes to original repo here:
 https://github.com/sklawik/Slender8PagesTeardown
 
 Thank you and have fun.
