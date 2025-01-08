@@ -11,8 +11,10 @@ function init()
     -- SETUP - MAP LOADING - INIT
 
 
-
+    
+  
     arrow = LoadSprite("arrow.png")
+
     -- Global vars | gameplay
     PagesCollected = 0
     PagesToCollect = 8
@@ -45,13 +47,13 @@ function init()
             if i==7 then -- if our page is 7 (gas camp next to bathrooms)
                 SetBodyTransform(SlenderPages[i],Vec(86.0, 70.0 -10.0), QuatEuler(-6.4 -1.3, 25.5))
                 SetPlayerTransform(Vec(86.0, 70.0 -10.0), QuatEuler(-6.4 -1.3, 25.5))
-                DebugPrint('Set random page in gas')
+                -- DebugPrint('Set random page in gas')
             end
         end
         local t = GetBodyTransform(SlenderPages[i])
        
         if(GetBodyTransform(SlenderPages[i]) == Vec(0,0,0)) then
-            DebugPrint('found ' .. i .. ' as deleted')
+            -- DebugPrint('found ' .. i .. ' as deleted')
         end
         SetDescription(SlenderPages[i],"Collect")
 
@@ -104,7 +106,7 @@ function tick(tr)
 
         local sum = VecSub(playerPos,slendermanPos)
 
-        DebugPrint("sum: "..sum[1].." "..sum[2].." "..sum[3].."  length: "..VecLength((sum)))
+        -- DebugPrint("sum: "..sum[1].." "..sum[2].." "..sum[3].."  length: "..VecLength((sum)))
 
     --  DebugPrint("real point: "..lPos[1].." "..lPos[2].." "..lPos[3])
 
@@ -127,13 +129,14 @@ function tick(tr)
         end
     end
     SetString("game.player.tool", "none")   
+    
 
     if(GetPlayerInteractBody() ~= 0 and InputPressed('interact')) then
 
         PagesCollected = PagesCollected + 1
         SetBodyTransform(GetPlayerInteractBody(),Vec(0,0,0), 1)
        
-        DebugPrint("Pages: "..PagesCollected.."  ".. #SlenderPages)
+        DebugPrint("Pages: "..PagesCollected.." " .. "of" .. " ".. #SlenderPages)
     end
 
     -- if 1 minute passes from start of the game and didnt collect,

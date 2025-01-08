@@ -1,482 +1,481 @@
-<scene id_="1874706176" open_="true" version="0.9.0" shadowVolume="200 50 200">
-	<environment id_="1757520640" template="night" skybox="night" skyboxtint="0.0 0.0 0.0" skyboxbrightness="0.01" constant="0.001 0.001 0.001" ambient="0" ambientexponent="1" fogColor="0.0 0.0 0.0" fogParams="20 20 1.9.2" sunColorTint="0.0 0.0 0.0" sunDir="0" sunSpread="0" sunLength="0" sunFogScale="0" sunGlare="0" exposure="0.1" brightness="1" wetness="0" puddlesize="0" nightlight="false" ambience="nil" fogscale="1"/>
-	<spawnpoint id_="1115425280" pos="25.4 6.7 90.8" rot="0 180 0"/>
-	<group id_="556041344" open_="true" pos="-1.61056 5.3 -64.24657" rot="0.0 10.0 0.0">
-		<vox id_="882037312" pos="-1.5 0.6 -2.7" rot="0.0 -20.0 0.0" blendtexture="1" density="0" file="MOD/canal.vox" scale="1"/>
+<scene version="1.6.2" shadowVolume="200 50 200">
+	<environment template="night" skybox="night" skyboxtint=" 0.0 0.0" skyboxbrightness="255" constant="0.1 0 0" ambient="0" ambientexponent="1" fogColor="1 1 1" fogParams="20 20 20" sunColorTint="0.0 0.0 0.0" sunDir="0" sunSpread="1" sunLength="0" sunFogScale="0" sunGlare="0" exposure="0.1" brightness="255" wetness="0" puddlesize="0" nightlight="true" ambience="nil" fogscale="0.5"/>
+	<spawnpoint pos="25.4 6.7 90.8" rot="0 180 0"/>
+	<group pos="-1.61056 5.3 -64.24657" rot="0.0 10.0 0.0">
+		<vox pos="-1.5 0.6 -2.7" rot="0.0 -20.0 0.0" blendtexture="1" density="0" file="MOD/canal.vox" scale="1"/>
 	</group>
-	<vox id_="1204821760" pos="-2.2 5.9 -74.5" rot="0.0 -10.0 0.0" blendtexture="1" density="0" file="MOD/canal.vox" scale="1"/>
-	<group id_="549356288" open_="true" pos="27.0 12.8 -60.5" rot="0 25 0">
-		<group id_="791723200" open_="true" pos="-3.00001 -2.8 -11.6" rot="0.0 0.0 0.0">
-			<vox id_="548176576" pos="3.0 2.6 14.8" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
+	<vox pos="-2.2 5.9 -74.5" rot="0.0 -10.0 0.0" blendtexture="1" density="0" file="MOD/canal.vox" scale="1"/>
+	<group pos="27.0 12.8 -60.5" rot="0 25 0">
+		<group pos="-3.00001 -2.8 -11.6" rot="0.0 0.0 0.0">
+			<vox pos="3.0 2.6 14.8" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
 		</group>
-		<group id_="1116080640" open_="true" pos="-3.00001 -2.8 -9.6" rot="0.0 0.0 0.0">
-			<vox id_="99227560" pos="8.2 2.6 13.0" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
-			<vox id_="640129152" pos="12.59999 2.6 12.6" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
-			<vox id_="1149112832" pos="13.1 2.6 19.9" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
-			<vox id_="803585920" pos="8.5 2.6 19.90001" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
-			<vox id_="1703843328" pos="3.1 2.6 19.90001" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
+		<group pos="-3.00001 -2.8 -9.6" rot="0.0 0.0 0.0">
+			<vox pos="8.2 2.6 13.0" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
+			<vox pos="12.59999 2.6 12.6" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
+			<vox pos="13.1 2.6 19.9" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
+			<vox pos="8.5 2.6 19.90001" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
+			<vox pos="3.1 2.6 19.90001" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="0.5" strength="0.5" file="MOD/cuttedWood.vox"/>
 		</group>
 	</group>
-	<voxscript id_="1971508736" pos="-100.00001 0.0 -100.00001" texture="1" blendtexture="1" density="4" strength="4" file="MOD/ground.lua">
+	<voxscript pos="-100.00001 0.0 -100.00001" texture="1" blendtexture="1" density="4" strength="4" file="MOD/ground.lua">
 		<parameters scale="64" size="1183 0 0" file="MOD/map.png"/>
 	</voxscript>
-	<group id_="466186016" pos="85.10001 4.5 -56.5"/>
-	<group id_="427845120" pos="85.6 7.5 -55.0" rot="0.0 90.0 0.0"/>
-	<group id_="174664096" open_="true" pos="85.6 7.5 -45.0" rot="0.0 90.0 0.0">
-		<vox id_="1517644288" pos="5.6 -4.0 1.4" strength="2" file="MOD/crosswall.vox"/>
-		<vox id_="1784129920" pos="7.6 -4.0 -4.7" rot="0.0 -90.0 0.0" strength="2" file="MOD/crosswall.vox"/>
-		<vox id_="471035968" pos="7.6 -4.0 3.4" rot="0.0 -90.0 0.0" strength="2" file="MOD/crosswall.vox"/>
-		<vox id_="1914685568" pos="13.5 -4.0 1.4" strength="2" file="MOD/crosswall.vox"/>
+	<group pos="85.10001 4.5 -56.5"/>
+	<group pos="85.6 7.5 -55.0" rot="0.0 90.0 0.0"/>
+	<group pos="85.6 7.5 -45.0" rot="0.0 90.0 0.0">
+		<vox pos="5.6 -4.0 1.4" strength="2" file="MOD/crosswall.vox"/>
+		<vox pos="7.6 -4.0 -4.7" rot="0.0 -90.0 0.0" strength="2" file="MOD/crosswall.vox"/>
+		<vox pos="7.6 -4.0 3.4" rot="0.0 -90.0 0.0" strength="2" file="MOD/crosswall.vox"/>
+		<vox pos="13.5 -4.0 1.4" strength="2" file="MOD/crosswall.vox"/>
 	</group>
-	<vox id_="396123776" pos="81.1 6.0 58.8" file="MOD/rock.vox"/>
-	<vox id_="1209999488" pos="80.3 5.5 63.5" rot="-10.3 -31.6 -17.2" file="MOD/rock.vox"/>
-	<vox id_="2069491072" pos="83.70001 5.6 59.4" rot="15.0 -70.8 2.0" file="MOD/rock.vox"/>
-	<vox id_="1636140544" pos="53.7 10.5 71.5" texture="1" blendtexture="1" file="MOD/silo.vox"/>
-	<vox id_="198520656" pos="-66.2 9.5 63.7" file="MOD/scaryTree.vox"/>
-	<group id_="1222910848" pos="38.0 6.0 71.5">
-		<vox id_="465792768" pos="0.5 0.1 0.4" file="MOD/tree-large.vox"/>
-		<vox id_="1783474432" pos="-12.8 0.1 -6.5" file="MOD/tree-large.vox"/>
-		<vox id_="686924736" pos="-7.4 0.1 -15.9" file="MOD/tree-large.vox"/>
-		<vox id_="440297728" pos="-0.0 0.1 -25.7" file="MOD/tree-large.vox"/>
-		<vox id_="2020598144" pos="0.0 0.1 -47.3" file="MOD/tree-large.vox"/>
-		<vox id_="1567061376" pos="2.8 0.1 -19.9" file="MOD/tree-large.vox"/>
-		<vox id_="1141706752" pos="46.9 0.1 -19.9" file="MOD/tree-large.vox"/>
-		<vox id_="180235008" pos="46.9 0.1 2.3" file="MOD/tree-large.vox"/>
-		<vox id_="1819914752" pos="57.1 0.1 2.3" file="MOD/tree-large.vox"/>
-		<vox id_="1550676352" pos="10.4 0.1 -15.9" file="MOD/tree-large.vox"/>
-		<vox id_="967435968" pos="-5.6 0.0 -5.5" file="MOD/tree-medium.vox"/>
-		<vox id_="1629324416" pos="-1.6 0.0 -13.5" file="MOD/tree-medium.vox"/>
-		<vox id_="1749328128" pos="19.4 0.0 -13.5" file="MOD/tree-medium.vox"/>
-		<vox id_="1301165568" pos="25.7 0.0 1.1" file="MOD/tree-medium.vox"/>
-		<vox id_="238303440" pos="8.8 0.0 -4.7" file="MOD/tree-medium.vox"/>
-		<vox id_="367220608" pos="-20.8 0.0 -15.0" file="MOD/tree-medium.vox"/>
-		<vox id_="2013454336" pos="-17.7 0.0 -27.1" file="MOD/tree-medium.vox"/>
-		<vox id_="64556900" pos="-28.3 0.0 -27.1" file="MOD/tree-medium.vox"/>
-		<vox id_="2131688448" pos="-28.3 0.0 -32.7" file="MOD/tree-medium.vox"/>
-		<vox id_="1115163136" pos="-64.2 0.0 -27.1" file="MOD/tree-medium.vox"/>
-		<vox id_="1833809152" pos="-6.4 0.0 -45.9" file="MOD/tree-medium.vox"/>
-		<vox id_="2012077952" pos="10.5 0.0 -51.5" file="MOD/tree-medium.vox"/>
-		<vox id_="537886784" pos="-7.5 0.0 -25.7" file="MOD/tree-medium.vox"/>
-		<vox id_="283591584" pos="0.4 0.0 -7.3" file="MOD/tree-medium.vox"/>
-		<vox id_="168110096" pos="19.4 0.0 -13.5" file="MOD/tree-medium.vox"/>
-		<vox id_="360535552" pos="12.9 0.0 -26.9" file="MOD/tree-medium.vox"/>
-		<vox id_="1816244480" pos="42.3 0.0 -26.9" file="MOD/tree-medium.vox"/>
-		<vox id_="1832891648" pos="45.8 0.0 -36.3" file="MOD/tree-medium.vox"/>
-		<vox id_="1044117760" pos="-0.2 0.0 -38.4" file="MOD/tree-medium.vox"/>
-		<vox id_="1844819968" pos="10.4 0.1 -36.1" file="MOD/tree-large.vox"/>
-		<vox id_="1241917440" pos="31.6 0.1 -58.0" file="MOD/tree-large.vox"/>
-		<vox id_="118561856" pos="32.2 0.1 -49.0" file="MOD/tree-large.vox"/>
-		<vox id_="1649641856" pos="29.2 0.1 -37.4" file="MOD/tree-large.vox"/>
-		<vox id_="1180178816" pos="25.4 0.1 -20.1" file="MOD/tree-large.vox"/>
-		<vox id_="572819584" pos="21.2 0.1 -36.1" file="MOD/tree-large.vox"/>
-		<vox id_="303908992" pos="21.2 0.1 -44.2" file="MOD/tree-large.vox"/>
-		<vox id_="2127624960" pos="21.2 0.1 -26.5" file="MOD/tree-large.vox"/>
-		<vox id_="995290432" pos="9.3 0.1 -45.3" file="MOD/tree-large.vox"/>
-		<vox id_="1367688704" pos="-77.1 0.0 -5.5" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="155395344" pos="-91.53983 0.0 -19.75282" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1215308160" pos="-79.92137 0.1 -21.93048" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1182734848" pos="-79.17812 0.0 -14.19953" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1530227968" pos="-71.52827 0.1 -23.75149" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1168053888" pos="-70.06853 0.1 -38.81369" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1343176704" pos="-84.5126 0.1 -39.22561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1872215680" pos="-84.5126 0.1 -31.72561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="536838144" pos="-84.5126 0.1 -48.92561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1615757568" pos="-94.91261 0.1 -48.92561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="776714560" pos="-94.91261 0.1 -67.22561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="876007616" pos="-94.91261 0.1 -59.52561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1609859072" pos="-108.91261 0.1 -62.02561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1047460288" pos="-101.01261 0.1 -55.82561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1624343296" pos="-76.68383 0.0 -33.78496" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1169233664" pos="-85.79447 0.1 -24.57373" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="948757056" pos="-73.66074 0.0 -10.73561" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1300248064" pos="-85.16388 0.1 -12.30986" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1064172992" pos="-83.25833 0.1 -1.63796" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1516005760" pos="-73.75833 0.1 3.66204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="88544544" pos="-35.85833 0.1 3.66204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="271597760" pos="-48.25833 0.1 -1.43796" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="69275776" pos="-53.65833 0.1 6.16204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1532587392" pos="-65.55833 0.1 6.16204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1979701248" pos="-68.63467 0.1 -4.90135" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1502242304" pos="-58.53467 0.1 -4.90135" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="943776000" pos="-65.55473 0.0 -14.14331" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1281044864" pos="-59.95473 0.0 2.35669" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1495622784" pos="-106.82137 0.1 -39.13048" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1744019456" pos="-111.41261 0.1 -48.92562" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2016862464" pos="-115.41261 0.1 -57.02562" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1659800448" pos="-103.58383 0.0 -50.98497" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1969739136" pos="-103.58383 0.0 -63.48497" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1777444864" pos="-92.45473 0.0 -31.34331" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="322981120" pos="-100.56075 0.0 -27.93561" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="2072505856" pos="-106.07813 0.0 -31.39953" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="981199360" pos="-112.69447 0.1 -41.77373" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="169683056" pos="-98.42827 0.1 -40.95149" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="476475808" pos="-118.43983 0.0 -36.95282" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1004138368" pos="-112.06388 0.1 -29.50986" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1198136704" pos="-101.36388 0.1 -22.10986" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2125396608" pos="0.0 0.0 -54.5" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="758297792" pos="-19.9 0.0 -116.5" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="632526528" pos="-17.0 0.0 -117.4" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1695323136" pos="-10.6 0.0 -115.7" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1624540032" pos="-16.2 0.0 -132.29999" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1993857920" pos="-16.2 0.0 -124.39999" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1125387392" pos="8.4 0.0 -29.9" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1896924160" pos="7.8 0.0 -62.7" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1892729600" pos="7.8 0.0 -157.8" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1031796224" pos="7.8 0.0 -149.0" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="944431424" pos="30.1 0.0 -149.0" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1912915968" pos="40.5 0.0 -148.5" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1423332224" pos="40.5 0.0 -164.10001" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="521370688" pos="19.7 0.0 -142.7" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1191582720" pos="30.6 0.0 -133.7" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1013051776" pos="30.6 0.0 -124.2" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="267009952" pos="-2.1 0.0 -169.40001" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1263217920" pos="21.0 0.0 -62.7" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1829024768" pos="21.0 0.0 -53.0" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="578062784" pos="13.9 0.0 -56.6" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="420176928" pos="-14.0 0.1 -35.1" file="MOD/tree-large.vox"/>
-		<vox id_="1972885120" pos="-14.6 0.1 -44.1" file="MOD/tree-large.vox"/>
-		<vox id_="1377126528" pos="-25.2 0.0 -48.8" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="658742528" pos="-25.2 0.0 -39.1" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1632994688" pos="-32.3 0.0 -42.7" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="117972000" pos="-38.4 0.0 -48.8" file="MOD/tree-mediumlarge.vox"/>
-		<vox id_="1995037568" pos="-35.7 0.0 -37.6" file="MOD/tree-medium.vox"/>
-		<vox id_="2056382976" pos="53.4 0.1 -45.0" file="MOD/tree-large.vox"/>
-		<vox id_="1902953856" pos="56.4 0.1 -36.1" file="MOD/tree-large.vox"/>
-		<vox id_="996273536" pos="53.4 0.1 -26.5" file="MOD/tree-large.vox"/>
-		<vox id_="1810149248" pos="57.6 0.1 -20.1" file="MOD/tree-large.vox"/>
-		<vox id_="1254501120" pos="51.6 0.0 -13.5" file="MOD/tree-medium.vox"/>
-		<vox id_="1575253888" pos="53.4 0.1 -93.8" file="MOD/tree-large.vox"/>
-		<vox id_="1964561536" pos="53.4 0.1 -85.7" file="MOD/tree-large.vox"/>
-		<vox id_="1924844288" pos="53.4 0.1 -76.10001" file="MOD/tree-large.vox"/>
-		<vox id_="490697984" pos="57.6 0.1 -69.7" file="MOD/tree-large.vox"/>
-		<vox id_="2134768896" pos="57.6 0.1 -56.5" file="MOD/tree-large.vox"/>
-		<vox id_="1790421760" pos="51.6 0.0 -63.10001" file="MOD/tree-medium.vox"/>
-		<vox id_="2060905344" pos="15.9 0.0 -165.20001" file="MOD/tree-medium.vox"/>
-		<vox id_="378427968" pos="15.9 0.0 -158.00002" file="MOD/tree-medium.vox"/>
-		<vox id_="1278750976" pos="15.9 0.0 -151.40001" file="MOD/tree-medium.vox"/>
-		<vox id_="158737888" pos="21.5 0.0 -147.40001" file="MOD/tree-medium.vox"/>
-		<vox id_="1684050304" pos="-3.5 0.0 -162.0" file="MOD/tree-medium.vox"/>
-		<vox id_="474247424" pos="-42.2 0.0 -162.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1245391104" pos="-56.9 0.0 -143.89999" file="MOD/tree-medium.vox"/>
-		<vox id_="507869472" pos="-56.9 0.0 -121.2" file="MOD/tree-medium.vox"/>
-		<vox id_="150152144" pos="-27.2 0.0 -121.2" file="MOD/tree-medium.vox"/>
-		<vox id_="1589345024" pos="-23.2 0.0 -150.89999" file="MOD/tree-medium.vox"/>
-		<vox id_="689349696" pos="-11.7 0.0 -144.7" file="MOD/tree-medium.vox"/>
-		<vox id_="1647151232" pos="1.3 0.0 -114.7" file="MOD/tree-medium.vox"/>
-		<vox id_="1538551552" pos="1.3 0.0 -106.5" file="MOD/tree-medium.vox"/>
-		<vox id_="1150685824" pos="14.9 0.0 -106.5" file="MOD/tree-medium.vox"/>
-		<vox id_="2100032640" pos="51.6 0.0 -6.00001" file="MOD/tree-medium.vox"/>
-		<vox id_="641308928" pos="-46.3 0.1 28.5" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1697813760" pos="11.40031 0.1 25.49998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1704498816" pos="3.30024 0.1 25.49998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1360413824" pos="-6.29977 0.1 25.49997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="339103968" pos="-12.69983 0.1 23.79998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1108215808" pos="-31.19989 0.1 26.70002" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2048321664" pos="-37.39995 0.1 25.49999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="49089460" pos="-27.49995 0.1 19.69999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="168831040" pos="-19.29986 -0.0 23.69996" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="334974944" pos="-46.10001 -0.0 17.89996" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="3014840" pos="-55.90005 0.1 25.5" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="111155840" pos="-79.60005 -0.0 19.39994" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="762099136" pos="-62.5001 0.1 18.99997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1380468992" pos="-62.30009 0.1 23.40003" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1003417408" pos="-68.90012 -0.0 23.69997" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1514825984" pos="-76.40016 -0.0 23.69998" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="354112608" pos="26.3 0.1 -85.60002" file="MOD/tree-large.vox"/>
-		<vox id_="325799328" pos="18.3 0.1 -84.30002" file="MOD/tree-large.vox"/>
-		<vox id_="2021908992" pos="18.3 0.1 -74.70004" file="MOD/tree-large.vox"/>
-		<vox id_="754824192" pos="18.3 0.1 -92.40002" file="MOD/tree-large.vox"/>
-		<vox id_="1980225536" pos="34.1 0.1 -81.40001" file="MOD/tree-large.vox"/>
-		<vox id_="218969136" pos="9.4 0.1 -117.20001" file="MOD/tree-large.vox"/>
-		<vox id_="917691072" pos="9.4 0.1 -105.50002" file="MOD/tree-large.vox"/>
-		<vox id_="2062216064" pos="21.1 0.1 -98.90002" file="MOD/tree-large.vox"/>
-		<vox id_="31655820" pos="15.6 0.1 -113.60001" file="MOD/tree-large.vox"/>
-		<vox id_="381704960" pos="15.6 0.1 -136.10001" file="MOD/tree-large.vox"/>
-		<vox id_="1770563072" pos="24.4 0.1 -136.10001" file="MOD/tree-large.vox"/>
-		<vox id_="907008064" pos="24.4 0.1 -125.3" file="MOD/tree-large.vox"/>
-		<vox id_="910809408" pos="26.5 0.1 -79.00002" file="MOD/tree-large.vox"/>
-		<vox id_="463761024" pos="6.4 0.1 -93.50002" file="MOD/tree-large.vox"/>
-		<vox id_="1196957056" pos="7.5 0.1 -84.30002" file="MOD/tree-large.vox"/>
-		<vox id_="751022848" pos="10.0 0.0 -75.10004" file="MOD/tree-medium.vox"/>
-		<vox id_="89986416" pos="-134.20016 0.0 -9.90002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1273573248" pos="-134.20016 0.0 -24.40002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1525705600" pos="-134.20016 0.0 -42.60002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1755816576" pos="-134.20016 0.0 -79.50002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1773184640" pos="-133.41478 0.1 -2.91741" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="899864192" pos="-129.41476 0.1 7.28262" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1802743296" pos="-123.61475 0.1 4.48259" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="749449920" pos="-123.61476 0.0 -3.01743" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1078788352" pos="-135.81477 0.0 2.88261" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="653761472" pos="-118.96006 0.1 10.06171" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="365057792" pos="-122.41473 0.0 17.38264" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="878891392" pos="-133.41479 0.1 14.88264" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="788970496" pos="-133.41479 0.1 -86.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1600552320" pos="-137.61479 0.1 -123.11736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="971433856" pos="-137.61479 0.1 -109.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1169364736" pos="-137.61479 0.1 -131.41736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1470520960" pos="-137.61479 0.1 -92.61736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1132989952" pos="-137.61479 0.1 -75.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="874041472" pos="-137.61479 0.1 -52.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1215832576" pos="-137.61479 0.1 -63.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1235494528" pos="-121.71479 0.1 -105.31736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="556565696" pos="-121.71479 0.1 -90.61736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1112541440" pos="-102.81479 0.1 -126.61736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="18023500" pos="-87.01479 0.1 -103.91736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1864285312" pos="-87.01479 0.1 -83.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1415008640" pos="-87.01479 0.1 -93.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1234970240" pos="-54.91479 0.1 -125.11736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1846327296" pos="-33.81479 0.1 -125.11736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="867487424" pos="-33.81479 0.1 -133.61737" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1722587776" pos="-20.01479 0.1 -154.31737" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1775085312" pos="-20.01479 0.1 -147.51736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1053162240" pos="-31.41479 0.1 -147.51736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1527671808" pos="29.68521 0.1 -141.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="435382208" pos="29.68521 0.1 -106.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1543270400" pos="41.78521 0.1 -106.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="638490688" pos="56.48521 0.1 -102.51736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1733336320" pos="60.38521 0.1 -81.31735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="43911800" pos="60.38521 0.1 -91.91735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1627620352" pos="60.38521 0.1 -47.11735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1016394304" pos="60.38521 0.1 -30.91735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="262684320" pos="60.38521 0.1 -13.21735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="842844416" pos="60.38521 0.1 -107.41736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1073741824" pos="60.38521 0.1 -143.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1936641408" pos="47.08521 0.1 -152.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1187584768" pos="47.08521 0.1 -152.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="566200064" pos="-129.56607 0.1 22.70147" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="440363264" pos="-120.35934 0.1 22.56384" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="893572352" pos="-95.85934 0.1 -87.33616" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="463892128" pos="-108.91479 0.1 -95.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1733598592" pos="-105.06607 0.1 -87.19853" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="470773824" pos="-99.11475 0.1 -105.41741" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1815916800" pos="-94.46006 0.1 -99.83829" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1344356480" pos="-108.91479 0.1 -112.81741" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1828041728" pos="-99.11476 0.0 -112.91743" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1892008704" pos="-111.31477 0.0 -107.01739" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1927334784" pos="-104.91476 0.1 -102.61738" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="612209152" pos="-109.70016 0.0 -119.80003" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1001778880" pos="-97.91473 0.0 -92.51736" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="318458848" pos="-94.45934 0.1 -117.33616" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="163587840" pos="-86.77812 0.1 -130.39163" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1458461568" pos="-94.59697 0.1 -126.54291" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1145835776" pos="-76.37805 0.1 -120.59158" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1108871296" pos="-81.95721 0.1 -115.93689" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2086203776" pos="-68.97807 0.1 -130.3916" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="665165440" pos="-68.87804 -0.0 -120.59159" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="697280064" pos="-74.7781 -0.0 -132.79163" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="549421824" pos="-79.1781 0.1 -126.39158" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="863948288" pos="-61.9954 -0.0 -131.177" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="745451968" pos="-20.5954 0.0 -123.077" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="2136931712" pos="-89.27813 -0.0 -119.39155" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="453012480" pos="-94.45934 0.1 -150.53616" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1667140992" pos="-86.77812 0.1 -163.59164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="462581312" pos="-93.47812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1075118208" pos="-81.57812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1434015232" pos="-67.07812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="34605120" pos="-50.87812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1552380416" pos="-50.87812 0.1 -158.19164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="753775552" pos="-60.67812 0.1 -151.49164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="149889984" pos="-60.67812 0.1 -158.99164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1084490368" pos="-39.97812 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="324423008" pos="-27.37812 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1818997120" pos="-13.07812 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1043921152" pos="-7.77812 0.1 -150.39165" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1906493056" pos="6.12188 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1475829760" pos="-94.59697 0.1 -159.74292" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="634623808" pos="-76.37805 0.1 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1061092608" pos="-81.95721 0.1 -149.1369" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="245381760" pos="-68.97807 0.1 -163.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="81990544" pos="-68.87804 0.0 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="138813728" pos="-74.7781 0.0 -165.99164" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="781236800" pos="-79.1781 0.1 -159.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1174083584" pos="-61.9954 0.0 -164.37701" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="172697904" pos="-89.27813 0.0 -152.59155" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="268124144" pos="-130.65933 0.1 -150.53616" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2103506304" pos="-122.97811 0.1 -163.59164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="706979968" pos="-130.79695 0.1 -159.74292" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1067122304" pos="-112.57804 0.1 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="146481904" pos="-118.1572 0.1 -149.1369" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1455053568" pos="-105.17806 0.1 -163.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1200955008" pos="-105.07803 0.0 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1713543296" pos="-110.97809 0.0 -165.99164" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="391339328" pos="-115.37809 0.1 -159.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="651205440" pos="-98.19539 0.0 -164.37701" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="353195072" pos="-125.47812 0.0 -152.59155" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1802808832" pos="-50.87812 0.1 -149.69164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="76943960" pos="-50.87812 0.1 -139.09163" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2047272960" pos="-34.0 0.0 -142.89999" file="MOD/tree-medium.vox"/>
-		<vox id_="1281110400" pos="-46.07812 0.1 -149.99164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="381508352" pos="-60.67812 0.1 -139.89163" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2043864960" pos="-23.7 0.1 -142.70001" file="MOD/tree-large.vox"/>
-		<vox id_="1410879616" pos="-23.7 0.1 -131.00003" file="MOD/tree-large.vox"/>
-		<vox id_="180169456" pos="-17.5 0.1 -139.10002" file="MOD/tree-large.vox"/>
-		<vox id_="47778660" pos="-31.8 0.0 -140.2" file="MOD/tree-medium.vox"/>
-		<vox id_="256458016" pos="-116.5 0.0 -97.89999" rot="0.0 90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1561752704" pos="-135.60001 0.0 -97.89999" rot="0.0 90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="548373184" pos="-135.60001 0.0 -31.89999" rot="0.0 90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1358644224" pos="-136.39168 0.1 -139.62177" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1441814400" pos="-136.39171 0.1 -151.52176" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="109386256" pos="-131.1917 0.1 -164.12184" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="69079160" pos="-127.19164 0.1 -153.9218" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1104807808" pos="-136.39171 0.1 -166.02179" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1747689600" pos="-127.34298 0.1 -138.5029" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="34146340" pos="-131.1917 0.1 -146.32178" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="685286272" pos="-131.97707 0.0 -134.90448" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1277964416" pos="-131.1917 0.1 -127.92178" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1365591424" pos="24.59999 0.0 -169.10002" file="MOD/tree-medium.vox"/>
-		<vox id_="223098160" pos="44.12188 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="783006400" pos="55.02187 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1599503744" pos="44.12188 0.1 -158.19164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1823847168" pos="52.8 0.0 -162.0" file="MOD/tree-medium.vox"/>
-		<vox id_="739684416" pos="34.32188 0.1 -158.99164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1047263680" pos="25.1 0.1 24.3" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="385899520" pos="47.50002 0.1 24.79999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="83235800" pos="58.60002 0.1 21.99998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1031927296" pos="47.30003 0.1 14.09999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="356799744" pos="40.61737 0.1 27.58521" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1228219648" pos="53.90002 0.1 20.59999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2078994304" pos="40.90002 -0.0 18.8" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="1918290304" pos="58.31738 0.1 27.58521" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="858377408" pos="31.9 0.1 19.9" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="108468704" pos="18.2 0.1 19.9" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="2136210816" pos="18.2 0.1 28.1" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1199185408" pos="32.2 0.1 28.1" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1699845376" pos="51.1 0.1 28.1" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="917953216" pos="-90.30005 0.1 24.3" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1870446080" pos="-96.70008 0.1 25.80003" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="545030656" pos="-96.90009 0.1 17.79997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="884200128" pos="-103.30012 0.0 22.49997" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
-		<vox id_="2076307200" pos="-108.90005 0.1 24.3" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1437619840" pos="-115.30008 0.1 23.80003" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1913702400" pos="-115.50009 0.1 17.79997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
-		<vox id_="1687392896" pos="-121.90012 0.0 22.49997" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+	<vox pos="81.1 6.0 58.8" file="MOD/rock.vox"/>
+	<vox pos="80.3 5.5 63.5" rot="-10.3 -31.6 -17.2" file="MOD/rock.vox"/>
+	<vox pos="83.70001 5.6 59.4" rot="15.0 -70.8 2.0" file="MOD/rock.vox"/>
+	<vox pos="53.7 10.5 71.5" texture="1" blendtexture="1" file="MOD/silo.vox"/>
+	<vox pos="-66.2 9.5 63.7" file="MOD/scaryTree.vox"/>
+	<group pos="38.0 6.0 71.5">
+		<vox pos="0.5 0.1 0.4" file="MOD/tree-large.vox"/>
+		<vox pos="-12.8 0.1 -6.5" file="MOD/tree-large.vox"/>
+		<vox pos="-7.4 0.1 -15.9" file="MOD/tree-large.vox"/>
+		<vox pos="-0.0 0.1 -25.7" file="MOD/tree-large.vox"/>
+		<vox pos="0.0 0.1 -47.3" file="MOD/tree-large.vox"/>
+		<vox pos="2.8 0.1 -19.9" file="MOD/tree-large.vox"/>
+		<vox pos="46.9 0.1 -19.9" file="MOD/tree-large.vox"/>
+		<vox pos="46.9 0.1 2.3" file="MOD/tree-large.vox"/>
+		<vox pos="57.1 0.1 2.3" file="MOD/tree-large.vox"/>
+		<vox pos="10.4 0.1 -15.9" file="MOD/tree-large.vox"/>
+		<vox pos="-5.6 0.0 -5.5" file="MOD/tree-medium.vox"/>
+		<vox pos="-1.6 0.0 -13.5" file="MOD/tree-medium.vox"/>
+		<vox pos="19.4 0.0 -13.5" file="MOD/tree-medium.vox"/>
+		<vox pos="25.7 0.0 1.1" file="MOD/tree-medium.vox"/>
+		<vox pos="8.8 0.0 -4.7" file="MOD/tree-medium.vox"/>
+		<vox pos="-20.8 0.0 -15.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-17.7 0.0 -27.1" file="MOD/tree-medium.vox"/>
+		<vox pos="-28.3 0.0 -27.1" file="MOD/tree-medium.vox"/>
+		<vox pos="-28.3 0.0 -32.7" file="MOD/tree-medium.vox"/>
+		<vox pos="-64.2 0.0 -27.1" file="MOD/tree-medium.vox"/>
+		<vox pos="-6.4 0.0 -45.9" file="MOD/tree-medium.vox"/>
+		<vox pos="10.5 0.0 -51.5" file="MOD/tree-medium.vox"/>
+		<vox pos="-7.5 0.0 -25.7" file="MOD/tree-medium.vox"/>
+		<vox pos="0.4 0.0 -7.3" file="MOD/tree-medium.vox"/>
+		<vox pos="19.4 0.0 -13.5" file="MOD/tree-medium.vox"/>
+		<vox pos="12.9 0.0 -26.9" file="MOD/tree-medium.vox"/>
+		<vox pos="42.3 0.0 -26.9" file="MOD/tree-medium.vox"/>
+		<vox pos="45.8 0.0 -36.3" file="MOD/tree-medium.vox"/>
+		<vox pos="-0.2 0.0 -38.4" file="MOD/tree-medium.vox"/>
+		<vox pos="10.4 0.1 -36.1" file="MOD/tree-large.vox"/>
+		<vox pos="31.6 0.1 -58.0" file="MOD/tree-large.vox"/>
+		<vox pos="32.2 0.1 -49.0" file="MOD/tree-large.vox"/>
+		<vox pos="29.2 0.1 -37.4" file="MOD/tree-large.vox"/>
+		<vox pos="25.4 0.1 -20.1" file="MOD/tree-large.vox"/>
+		<vox pos="21.2 0.1 -36.1" file="MOD/tree-large.vox"/>
+		<vox pos="21.2 0.1 -44.2" file="MOD/tree-large.vox"/>
+		<vox pos="21.2 0.1 -26.5" file="MOD/tree-large.vox"/>
+		<vox pos="9.3 0.1 -45.3" file="MOD/tree-large.vox"/>
+		<vox pos="-77.1 0.0 -5.5" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-91.53983 0.0 -19.75282" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-79.92137 0.1 -21.93048" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-79.17812 0.0 -14.19953" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-71.52827 0.1 -23.75149" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-70.06853 0.1 -38.81369" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-84.5126 0.1 -39.22561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-84.5126 0.1 -31.72561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-84.5126 0.1 -48.92561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-94.91261 0.1 -48.92561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-94.91261 0.1 -67.22561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-94.91261 0.1 -59.52561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-108.91261 0.1 -62.02561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-101.01261 0.1 -55.82561" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-76.68383 0.0 -33.78496" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-85.79447 0.1 -24.57373" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-73.66074 0.0 -10.73561" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-85.16388 0.1 -12.30986" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-83.25833 0.1 -1.63796" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-73.75833 0.1 3.66204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-35.85833 0.1 3.66204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-48.25833 0.1 -1.43796" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-53.65833 0.1 6.16204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-65.55833 0.1 6.16204" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-68.63467 0.1 -4.90135" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-58.53467 0.1 -4.90135" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-65.55473 0.0 -14.14331" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-59.95473 0.0 2.35669" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-106.82137 0.1 -39.13048" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-111.41261 0.1 -48.92562" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-115.41261 0.1 -57.02562" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-103.58383 0.0 -50.98497" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-103.58383 0.0 -63.48497" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-92.45473 0.0 -31.34331" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-100.56075 0.0 -27.93561" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-106.07813 0.0 -31.39953" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-112.69447 0.1 -41.77373" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-98.42827 0.1 -40.95149" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-118.43983 0.0 -36.95282" rot="0.0 40.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-112.06388 0.1 -29.50986" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-101.36388 0.1 -22.10986" rot="0.0 40.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="0.0 0.0 -54.5" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-19.9 0.0 -116.5" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-17.0 0.0 -117.4" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-10.6 0.0 -115.7" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-16.2 0.0 -132.29999" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-16.2 0.0 -124.39999" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="8.4 0.0 -29.9" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="7.8 0.0 -62.7" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="7.8 0.0 -157.8" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="7.8 0.0 -149.0" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="30.1 0.0 -149.0" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="40.5 0.0 -148.5" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="40.5 0.0 -164.10001" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="19.7 0.0 -142.7" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="30.6 0.0 -133.7" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="30.6 0.0 -124.2" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-2.1 0.0 -169.40001" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="21.0 0.0 -62.7" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="21.0 0.0 -53.0" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="13.9 0.0 -56.6" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-14.0 0.1 -35.1" file="MOD/tree-large.vox"/>
+		<vox pos="-14.6 0.1 -44.1" file="MOD/tree-large.vox"/>
+		<vox pos="-25.2 0.0 -48.8" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-25.2 0.0 -39.1" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-32.3 0.0 -42.7" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-38.4 0.0 -48.8" file="MOD/tree-mediumlarge.vox"/>
+		<vox pos="-35.7 0.0 -37.6" file="MOD/tree-medium.vox"/>
+		<vox pos="53.4 0.1 -45.0" file="MOD/tree-large.vox"/>
+		<vox pos="56.4 0.1 -36.1" file="MOD/tree-large.vox"/>
+		<vox pos="53.4 0.1 -26.5" file="MOD/tree-large.vox"/>
+		<vox pos="57.6 0.1 -20.1" file="MOD/tree-large.vox"/>
+		<vox pos="51.6 0.0 -13.5" file="MOD/tree-medium.vox"/>
+		<vox pos="53.4 0.1 -93.8" file="MOD/tree-large.vox"/>
+		<vox pos="53.4 0.1 -85.7" file="MOD/tree-large.vox"/>
+		<vox pos="53.4 0.1 -76.10001" file="MOD/tree-large.vox"/>
+		<vox pos="57.6 0.1 -69.7" file="MOD/tree-large.vox"/>
+		<vox pos="57.6 0.1 -56.5" file="MOD/tree-large.vox"/>
+		<vox pos="51.6 0.0 -63.10001" file="MOD/tree-medium.vox"/>
+		<vox pos="15.9 0.0 -165.20001" file="MOD/tree-medium.vox"/>
+		<vox pos="15.9 0.0 -158.00002" file="MOD/tree-medium.vox"/>
+		<vox pos="15.9 0.0 -151.40001" file="MOD/tree-medium.vox"/>
+		<vox pos="21.5 0.0 -147.40001" file="MOD/tree-medium.vox"/>
+		<vox pos="-3.5 0.0 -162.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-42.2 0.0 -162.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-56.9 0.0 -143.89999" file="MOD/tree-medium.vox"/>
+		<vox pos="-56.9 0.0 -121.2" file="MOD/tree-medium.vox"/>
+		<vox pos="-27.2 0.0 -121.2" file="MOD/tree-medium.vox"/>
+		<vox pos="-23.2 0.0 -150.89999" file="MOD/tree-medium.vox"/>
+		<vox pos="-11.7 0.0 -144.7" file="MOD/tree-medium.vox"/>
+		<vox pos="1.3 0.0 -114.7" file="MOD/tree-medium.vox"/>
+		<vox pos="1.3 0.0 -106.5" file="MOD/tree-medium.vox"/>
+		<vox pos="14.9 0.0 -106.5" file="MOD/tree-medium.vox"/>
+		<vox pos="51.6 0.0 -6.00001" file="MOD/tree-medium.vox"/>
+		<vox pos="-46.3 0.1 28.5" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="11.40031 0.1 25.49998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="3.30024 0.1 25.49998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-6.29977 0.1 25.49997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-12.69983 0.1 23.79998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-31.19989 0.1 26.70002" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-37.39995 0.1 25.49999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-27.49995 0.1 19.69999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-19.29986 -0.0 23.69996" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-46.10001 -0.0 17.89996" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-55.90005 0.1 25.5" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-79.60005 -0.0 19.39994" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-62.5001 0.1 18.99997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-62.30009 0.1 23.40003" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-68.90012 -0.0 23.69997" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-76.40016 -0.0 23.69998" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="26.3 0.1 -85.60002" file="MOD/tree-large.vox"/>
+		<vox pos="18.3 0.1 -84.30002" file="MOD/tree-large.vox"/>
+		<vox pos="18.3 0.1 -74.70004" file="MOD/tree-large.vox"/>
+		<vox pos="18.3 0.1 -92.40002" file="MOD/tree-large.vox"/>
+		<vox pos="34.1 0.1 -81.40001" file="MOD/tree-large.vox"/>
+		<vox pos="9.4 0.1 -117.20001" file="MOD/tree-large.vox"/>
+		<vox pos="9.4 0.1 -105.50002" file="MOD/tree-large.vox"/>
+		<vox pos="21.1 0.1 -98.90002" file="MOD/tree-large.vox"/>
+		<vox pos="15.6 0.1 -113.60001" file="MOD/tree-large.vox"/>
+		<vox pos="15.6 0.1 -136.10001" file="MOD/tree-large.vox"/>
+		<vox pos="24.4 0.1 -136.10001" file="MOD/tree-large.vox"/>
+		<vox pos="24.4 0.1 -125.3" file="MOD/tree-large.vox"/>
+		<vox pos="26.5 0.1 -79.00002" file="MOD/tree-large.vox"/>
+		<vox pos="6.4 0.1 -93.50002" file="MOD/tree-large.vox"/>
+		<vox pos="7.5 0.1 -84.30002" file="MOD/tree-large.vox"/>
+		<vox pos="10.0 0.0 -75.10004" file="MOD/tree-medium.vox"/>
+		<vox pos="-134.20016 0.0 -9.90002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-134.20016 0.0 -24.40002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-134.20016 0.0 -42.60002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-134.20016 0.0 -79.50002" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-133.41478 0.1 -2.91741" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-129.41476 0.1 7.28262" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-123.61475 0.1 4.48259" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-123.61476 0.0 -3.01743" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-135.81477 0.0 2.88261" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-118.96006 0.1 10.06171" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-122.41473 0.0 17.38264" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-133.41479 0.1 14.88264" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-133.41479 0.1 -86.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-137.61479 0.1 -123.11736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-137.61479 0.1 -109.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-137.61479 0.1 -131.41736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-137.61479 0.1 -92.61736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-137.61479 0.1 -75.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-137.61479 0.1 -52.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-137.61479 0.1 -63.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-121.71479 0.1 -105.31736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-121.71479 0.1 -90.61736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-102.81479 0.1 -126.61736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-87.01479 0.1 -103.91736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-87.01479 0.1 -83.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-87.01479 0.1 -93.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-54.91479 0.1 -125.11736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-33.81479 0.1 -125.11736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-33.81479 0.1 -133.61737" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-20.01479 0.1 -154.31737" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-20.01479 0.1 -147.51736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-31.41479 0.1 -147.51736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="29.68521 0.1 -141.71736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="29.68521 0.1 -106.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="41.78521 0.1 -106.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="56.48521 0.1 -102.51736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="60.38521 0.1 -81.31735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="60.38521 0.1 -91.91735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="60.38521 0.1 -47.11735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="60.38521 0.1 -30.91735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="60.38521 0.1 -13.21735" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="60.38521 0.1 -107.41736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="60.38521 0.1 -143.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="47.08521 0.1 -152.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="47.08521 0.1 -152.21736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-129.56607 0.1 22.70147" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-120.35934 0.1 22.56384" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-95.85934 0.1 -87.33616" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-108.91479 0.1 -95.01736" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-105.06607 0.1 -87.19853" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-99.11475 0.1 -105.41741" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-94.46006 0.1 -99.83829" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-108.91479 0.1 -112.81741" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-99.11476 0.0 -112.91743" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-111.31477 0.0 -107.01739" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-104.91476 0.1 -102.61738" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-109.70016 0.0 -119.80003" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-97.91473 0.0 -92.51736" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-94.45934 0.1 -117.33616" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-86.77812 0.1 -130.39163" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-94.59697 0.1 -126.54291" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-76.37805 0.1 -120.59158" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-81.95721 0.1 -115.93689" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-68.97807 0.1 -130.3916" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-68.87804 -0.0 -120.59159" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-74.7781 -0.0 -132.79163" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-79.1781 0.1 -126.39158" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-61.9954 -0.0 -131.177" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-20.5954 0.0 -123.077" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-89.27813 -0.0 -119.39155" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-94.45934 0.1 -150.53616" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-86.77812 0.1 -163.59164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-93.47812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-81.57812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-67.07812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-50.87812 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-50.87812 0.1 -158.19164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-60.67812 0.1 -151.49164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-60.67812 0.1 -158.99164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-39.97812 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-27.37812 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-13.07812 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-7.77812 0.1 -150.39165" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="6.12188 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-94.59697 0.1 -159.74292" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-76.37805 0.1 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-81.95721 0.1 -149.1369" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-68.97807 0.1 -163.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-68.87804 0.0 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-74.7781 0.0 -165.99164" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-79.1781 0.1 -159.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-61.9954 0.0 -164.37701" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-89.27813 0.0 -152.59155" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-130.65933 0.1 -150.53616" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-122.97811 0.1 -163.59164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-130.79695 0.1 -159.74292" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-112.57804 0.1 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-118.1572 0.1 -149.1369" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-105.17806 0.1 -163.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-105.07803 0.0 -153.7916" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-110.97809 0.0 -165.99164" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-115.37809 0.1 -159.59161" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-98.19539 0.0 -164.37701" rot="0.0 50.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-125.47812 0.0 -152.59155" rot="0.0 -180.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-50.87812 0.1 -149.69164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-50.87812 0.1 -139.09163" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-34.0 0.0 -142.89999" file="MOD/tree-medium.vox"/>
+		<vox pos="-46.07812 0.1 -149.99164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-60.67812 0.1 -139.89163" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-23.7 0.1 -142.70001" file="MOD/tree-large.vox"/>
+		<vox pos="-23.7 0.1 -131.00003" file="MOD/tree-large.vox"/>
+		<vox pos="-17.5 0.1 -139.10002" file="MOD/tree-large.vox"/>
+		<vox pos="-31.8 0.0 -140.2" file="MOD/tree-medium.vox"/>
+		<vox pos="-116.5 0.0 -97.89999" rot="0.0 90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-135.60001 0.0 -97.89999" rot="0.0 90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-135.60001 0.0 -31.89999" rot="0.0 90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-136.39168 0.1 -139.62177" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-136.39171 0.1 -151.52176" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-131.1917 0.1 -164.12184" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-127.19164 0.1 -153.9218" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-136.39171 0.1 -166.02179" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-127.34298 0.1 -138.5029" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-131.1917 0.1 -146.32178" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-131.97707 0.0 -134.90448" rot="0.0 140.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-131.1917 0.1 -127.92178" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="24.59999 0.0 -169.10002" file="MOD/tree-medium.vox"/>
+		<vox pos="44.12188 0.1 -168.79164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="55.02187 0.1 -169.09164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="44.12188 0.1 -158.19164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="52.8 0.0 -162.0" file="MOD/tree-medium.vox"/>
+		<vox pos="34.32188 0.1 -158.99164" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="25.1 0.1 24.3" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="47.50002 0.1 24.79999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="58.60002 0.1 21.99998" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="47.30003 0.1 14.09999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="40.61737 0.1 27.58521" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="53.90002 0.1 20.59999" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="40.90002 -0.0 18.8" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="58.31738 0.1 27.58521" rot="0.0 -180.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="31.9 0.1 19.9" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="18.2 0.1 19.9" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="18.2 0.1 28.1" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="32.2 0.1 28.1" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="51.1 0.1 28.1" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-90.30005 0.1 24.3" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-96.70008 0.1 25.80003" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-96.90009 0.1 17.79997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-103.30012 0.0 22.49997" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
+		<vox pos="-108.90005 0.1 24.3" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-115.30008 0.1 23.80003" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-115.50009 0.1 17.79997" rot="0.0 -90.0 0.0" file="MOD/tree-large.vox"/>
+		<vox pos="-121.90012 0.0 22.49997" rot="0.0 -90.0 0.0" file="MOD/tree-medium.vox"/>
 	</group>
-	<group id_="1528917120" pos="19.4 5.5 -6.6">
-		<vox id_="1335180928" pos="-1.4 0.5 -5.5" file="MOD/propane_huge.vox"/>
-		<vox id_="1655540352" pos="-10.6 0.5 -1.2" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
-		<vox id_="2038883840" pos="-10.6 0.5 -6.9" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
-		<vox id_="1091634176" pos="-10.6 0.5 4.3" rot="0.0 -90.0 0.0" collide="true" prop="true" file="MOD/propane_huge.vox"/>
-		<vox id_="1287074560" pos="14.1 0.5 3.8" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
-		<vox id_="770750400" pos="14.1 0.5 -1.6" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
-		<vox id_="450653056" pos="14.1 0.5 -6.6" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
-		<vox id_="2055793152" pos="-10.6 0.5 -14.2" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
-		<vox id_="211497584" pos="13.6 0.5 -13.0" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
-		<vox id_="1138888576" pos="3.5 0.5 -5.7" file="MOD/propane_huge.vox"/>
+	<group pos="19.4 5.5 -6.6">
+		<vox pos="-1.4 0.5 -5.5" file="MOD/propane_huge.vox"/>
+		<vox pos="-10.6 0.5 -1.2" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
+		<vox pos="-10.6 0.5 -6.9" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
+		<vox pos="-10.6 0.5 4.3" rot="0.0 -90.0 0.0" collide="true" prop="true" file="MOD/propane_huge.vox"/>
+		<vox pos="14.1 0.5 3.8" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
+		<vox pos="14.1 0.5 -1.6" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
+		<vox pos="14.1 0.5 -6.6" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
+		<vox pos="-10.6 0.5 -14.2" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
+		<vox pos="13.6 0.5 -13.0" rot="0.0 -90.0 0.0" file="MOD/propane_huge.vox"/>
+		<vox pos="3.5 0.5 -5.7" file="MOD/propane_huge.vox"/>
 	</group>
-	<vox id_="278282848" pos="-87.2 5.5 22.6" rot="0.0 20.0 0.0" file="MOD/taskmaster-4wd.vox"/>
-	<vox id_="1091372032" pos="-83.10001 5.5 -48.4" rot="0.0 -70.0 0.0" file="MOD/singleTanker.vox"/>
-	<vox id_="827311424" name="cringeTrailer" pos="-90.9 7.5 14.5" rot="0.0 -40.0 0.0" blendtexture="1" density="1" strength="1" file="MOD/cringeTrailer.vox"/>
-	<vox id_="739094592" pos="-22.5 5.3 -13.8" rot="0.0 0.0 0.0" file="MOD/bathrooms.vox"/>
-	<script id_="1504798464" open_="true" file="MOD/script.lua">
-		<group id_="1314601344" name="slenderPage" tags="interact" pos="-9.82 6.55 -12.25" rot="0.0 -90.0 0.0" prop0="interact">
-			<body id_="1688703616" open_="true" name="slenderPage" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="1499293056" tags="pageOne interact" pos="0.0 6.3 0.0" file="MOD/pageOne.vox" scale="0.05"/>
-				<vox id_="1629062272" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+	<vox pos="-87.2 5.5 22.6" rot="0.0 20.0 0.0" file="MOD/taskmaster-4wd.vox"/>
+	<vox pos="-83.10001 5.5 -48.4" rot="0.0 -70.0 0.0" file="MOD/singleTanker.vox"/>
+	<vox name="cringeTrailer" pos="-90.9 7.5 14.5" rot="0.0 -40.0 0.0" blendtexture="1" density="1" strength="1" file="MOD/cringeTrailer.vox"/>
+	<vox pos="-22.5 5.3 -13.8" rot="0.0 0.0 0.0" file="MOD/bathrooms.vox"/>
+	<script file="MOD/script.lua">
+		<group name="slenderPage" tags="interact" pos="-9.82 6.55 -12.25" rot="0.0 -90.0 0.0" prop0="interact">
+			<body name="slenderPage" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.0" file="MOD/pageOne.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="172042496" name="slenderPage" tags="interact" pos="39.5 6.1 -54.9" rot="0.0 -60.0 0.0" prop0="interact">
-			<body id_="1072758720" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="662871552" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageThree.vox" scale="0.05"/>
-				<vox id_="799129216" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="39.5 6.1 -54.9" rot="0.0 -60.0 0.0" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageThree.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="203108464" name="slenderPage" tags="interact" pos="85.2 6.7 -53.9" rot="0.0 100.0 0.0" prop0="interact">
-			<body id_="1220354816" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="982116928" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageTwo.vox" scale="0.05"/>
-				<vox id_="1690931968" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="85.2 6.7 -53.9" rot="0.0 100.0 0.0" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageTwo.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="1768531328" name="slenderPage" tags="interact" pos="82.09999 6.8 62.3" rot="11.7 101.7 -7.9" prop0="interact">
-			<body id_="951247552" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="1737072128" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageThree.vox" scale="0.05"/>
-				<vox id_="1775937408" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="82.09999 6.8 62.3" rot="11.7 101.7 -7.9" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageThree.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="1028388160" name="slenderPage" tags="interact" pos="55.19999 6.8 67.1" rot="1.8 100.2 -9.8" prop0="interact">
-			<body id_="575637824" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="275333536" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageFour.vox" scale="0.05"/>
-				<vox id_="1029698944" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="55.19999 6.8 67.1" rot="1.8 100.2 -9.8" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageFour.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="1840559872" name="slenderPage" tags="interact" pos="-65.4 6.9 65.5" rot="1.8 90.2 -9.8" prop0="interact">
-			<body id_="1345863936" name="SlenderPage" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="835766080" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageFive.vox" scale="0.05"/>
-				<vox id_="508131616" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="-65.4 6.9 65.5" rot="1.8 90.2 -9.8" prop0="interact">
+			<body name="SlenderPage" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageFive.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="176499216" name="slenderPage" tags="interact" pos="-92.8 6.9 12.2" rot="1.8 -119.8 -9.8" prop0="interact">
-			<body id_="1679331456" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="1874116352" tags="pageOne interact" pos="0.0 6.3 0.1" rot="0.0 0.0 0.0" file="MOD/pageSix.vox" scale="0.05"/>
-				<vox id_="1318533760" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="-92.8 6.9 12.2" rot="1.8 -119.8 -9.8" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.1" rot="0.0 0.0 0.0" file="MOD/pageSix.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="849005184" name="slenderPage" tags="interact" pos="-83.6 7.0 -48.1" rot="-2.4 -73.6 18.7" prop0="interact">
-			<body id_="366892928" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="1690735360" tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageSeven.vox" scale="0.05"/>
-				<vox id_="917101248" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="-83.6 7.0 -48.1" rot="-2.4 -73.6 18.7" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" file="MOD/pageSeven.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="669228928" name="slenderPage" tags="interact" pos="0.5 7.3 -74.7" rot="-1.6 -100.1 -0.4" prop0="interact">
-			<body id_="71241984" open_="true" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
-				<vox id_="124722624" tags="pageOne interact" pos="0.0 6.3 0.2" rot="0.0 0.0 0.0" texture="1" file="MOD/pageEight.vox" scale="0.06"/>
-				<vox id_="2076962560" pos="0.15 4.5 2.0" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="0.5 7.3 -74.7" rot="-1.6 -100.1 -0.4" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.2 0.1" dynamic="true">
+				<vox tags="pageOne interact" pos="0.0 6.3 0.2" rot="0.0 0.0 0.0" texture="1" file="MOD/pageEight.vox" scale="0.06"/>
+				<vox pos="0.15 4.5 2.0" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<group id_="803454848" name="slenderPage" tags="interact" pos="21.5 7.0 -12.6" rot="-1.7 -90.1 -30.4" prop0="interact">
-			<body id_="321932480" name="pageOne" tags="SlenderPage interact" pos="0.1 -6.0 0.1" dynamic="true">
-				<vox id_="239810864" tags="SlenderPage interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="2" strength="2" file="MOD/pageSeven.vox" scale="0.05"/>
-				<vox id_="1386564224" pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
+		<group name="slenderPage" tags="interact" pos="21.5 7.0 -12.6" rot="-1.7 -90.1 -30.4" prop0="interact">
+			<body name="pageOne" tags="SlenderPage interact" pos="0.1 -6.0 0.1" dynamic="true">
+				<vox tags="SlenderPage interact" pos="0.0 6.3 0.0" rot="0.0 0.0 0.0" texture="1" blendtexture="1" density="2" strength="2" file="MOD/pageSeven.vox" scale="0.05"/>
+				<vox pos="0.15 4.5 1.9" file="MOD/pageBack.vox"/>
 			</body>
 		</group>
-		<body id_="1311455360" open_="true" name="Slenderman" tags="Slenderman" pos="-10.4 5.0 -9.1" dynamic="true">
-			<vox id_="239024384" tags="Slenderman" pos="30.6 -0.2 92.60001" rot="0.0 70.0 0.0" file="MOD/slenderman.vox" scale="0.5"/>
+		<body name="Slenderman" tags="Slenderman" pos="-10.4 5.0 -9.1" dynamic="true">
+			<vox tags="Slenderman" pos="30.6 -0.2 92.60001" rot="0.0 70.0 0.0" file="MOD/slenderman.vox" scale="0.5"/>
 		</body>
-		<body id_="1861991424" open_="true" name="easterEggThree" tags='easterEggThree interact="I should have my eye on him"' pos="-61.10001 7.1 -42.3" rot="0.0 -180.0 0.0" dynamic="true" desc="I should have my eye on him">
-			<vox id_="1372538624" pos="-0.1 0.1 -0.3" rot="0.0 0.0 -10.0" file="MOD/easterEgg3.vox" scale="0.05"/>
+		<body name="easterEggThree" tags='easterEggThree interact="I should have my eye on him"' pos="-61.10001 7.1 -42.3" rot="0.0 -180.0 0.0" dynamic="true" desc="I should have my eye on him">
+			<vox pos="-0.1 0.1 -0.3" rot="0.0 0.0 -10.0" file="MOD/easterEgg3.vox" scale="0.05"/>
 		</body>
 	</script>
-	<group id_="337727616" pos="-87.5 5.3 99.9">
-		<vox id_="38537520" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="158672336" pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1441355648" pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="502822880" pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1535798784" pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="587500544" pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1932184704" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1618313728" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
+	<group pos="-87.5 5.3 99.9">
+		<vox pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
-	<group id_="1623884544" pos="-87.4 5.3 -100.09999">
-		<vox id_="1828828160" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="732737216" pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1763812480" pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="436824096" pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="175319504" pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="854641600" pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="45746920" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1414484224" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
+	<group pos="-87.4 5.3 -100.09999">
+		<vox pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
-	<group id_="2136538496" pos="-100.2 5.3 87.40002" rot="0.0 90.0 0.0">
-		<vox id_="503871520" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="412836448" pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="803323776" pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1950732544" pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1793633152" pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1413828864" pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="642816320" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1677234176" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
+	<group pos="-100.2 5.3 87.40002" rot="0.0 90.0 0.0">
+		<vox pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
-	<group id_="1765909760" pos="100.0 5.3 87.30001" rot="0.0 90.0 0.0">
-		<vox id_="674996480" pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1468816896" pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="2055596544" pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1573615360" pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1922812544" pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1320303360" pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="663199232" pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
-		<vox id_="1604943488" pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
+	<group pos="100.0 5.3 87.30001" rot="0.0 90.0 0.0">
+		<vox pos="0.2 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="25.4 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="50.6 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="75.3 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="100.5 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="125.7 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="150.89999 0.1 2.10001" file="MOD/fence.vox"/>
+		<vox pos="174.89999 0.1 2.10001" file="MOD/fence.vox"/>
 	</group>
-	<vox id_="1852029312" name="easterEggOne" pos="85.10001 7.2 58.0" rot="-15.4 109.6 -16.1" file="MOD/easterEggOne.vox" scale="0.10"/>
-	<vox id_="510753216" pos="-104.3 6.3 -102.00002" rot="0.0 50.0 0.0" file="MOD/easterEggTwo.vox" scale="0.2"/>
-	<layers/>
+	<vox name="easterEggOne" pos="85.10001 7.2 58.0" rot="-15.4 109.6 -16.1" file="MOD/easterEggOne.vox" scale="0.10"/>
+	<vox pos="-104.3 6.3 -102.00002" rot="0.0 50.0 0.0" file="MOD/easterEggTwo.vox" scale="0.2"/>
 </scene>
 
